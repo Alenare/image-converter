@@ -1,4 +1,4 @@
-Public Class Form1
+Public Class Converter1
 
     Structure COLORTYPE
         Dim RED As Integer
@@ -88,6 +88,7 @@ Public Class Form1
         PictureBox1.Image = b
     End Sub
 
+//Flattens Need Improvement
     Private Sub FlattenRedToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles FlattenRedToolStripMenuItem.Click
         Dim b As Bitmap = New Bitmap(PixelH.col, PixelH.row)
 
@@ -102,6 +103,7 @@ Public Class Form1
         PictureBox1.Image = b
     End Sub
 
+//Flattens Need Improvement
     Private Sub FlattenGreenToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles FlattenGreenToolStripMenuItem.Click
         Dim b As Bitmap = New Bitmap(PixelH.col, PixelH.row)
 
@@ -116,6 +118,7 @@ Public Class Form1
         PictureBox1.Image = b
     End Sub
 
+//Flattens Need Improvement
     Private Sub FlattenBlueToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles FlattenBlueToolStripMenuItem.Click
         Dim b As Bitmap = New Bitmap(PixelH.col, PixelH.row)
 
